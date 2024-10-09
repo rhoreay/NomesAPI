@@ -9,7 +9,7 @@ def buscaNome(nome):
     if response == None:
         return ['nome não encontrado']
     else:
-        return response
+        return [nome, response]
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=602)
